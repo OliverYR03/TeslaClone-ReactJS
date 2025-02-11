@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Downnav from "./components/Downnav";
 import Section from "./components/Section";
 import Inventori from "./components/Inventori";
