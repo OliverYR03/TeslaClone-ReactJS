@@ -1,8 +1,13 @@
-# React + Vite
+# Tescla Clone 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was made using React JS | Vite Framework and Tailwind.
 
-Currently, two official plugins are available:
+A simple project to practice Tailwind and Front End Skills
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Versión desktop:
+![alt text] (https://github.com/OliverYR03/TeslaClone-ReactJS/blob/main/public/readme/Teslaclone.JPG "Version Escritorio")
+
+
+Version Mobile:
+
+![alt text] (https://github.com/OliverYR03/TeslaClone-ReactJS/blob/main/public/readme/mobile-tesla-clone.JPG "Version Mobile")
