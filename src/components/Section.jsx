@@ -2,7 +2,7 @@ import React from 'react';
 
 function Section({ model, backgroundImg, backgroundVideo, price, description, leftBtn, rightBtn }) {
   return (
-    <div className="relative w-[99vw] h-[100vh] flex flex-col justify-between items-center overflow-hidden">
+    <section className="relative w-[99vw] h-[100vh] flex flex-col justify-between items-center overflow-hidden">
       {backgroundVideo ? (
         <video
           autoPlay
@@ -20,7 +20,7 @@ function Section({ model, backgroundImg, backgroundVideo, price, description, le
         />
       )}
 
-      <div className="relative font-[universalSans] text-white font-medium xl:mt-[17vh] items-center flex flex-col gap-2">
+      <div className="relative font-[universalSans] text-white font-medium mt-[17vh] items-center flex flex-col gap-2">
         <h1 className="xl:text-7xl text-5xl">{model}</h1>
         {price && <p className="xl:text-[40px] text-[20px] underline underline-offset-4">{price}</p>}
         <p className={`${price ? "xl:text-xl text-base" : "xl:text-3xl text-xl"} ${model === 'Solar Panels' ? "underline underline-offset-8" : ""}`}>
@@ -29,7 +29,7 @@ function Section({ model, backgroundImg, backgroundVideo, price, description, le
       </div>
 
       <div className="relative z-10 font-[universalSans]">
-        <button className={`px-6 py-2 xl:w-[27vh] w-[18vh] mb-10 cursor-pointer text-white rounded-md font-medium ${model === 'CyberTrukk' ? 'bg-[#171a20] text-[#a2a3a5] rounded-b-none' : 'bg-[#3e6ae1] rounded-md'}`}>
+        <button className={`px-6 py-2 xl:w-[27vh] w-[18vh] mb-20 cursor-pointer text-white rounded-md font-medium ${model === 'CyberTrukk' ? 'bg-[#171a20] text-[#a2a3a5] rounded-b-none' : 'bg-[#3e6ae1] rounded-md'}`}>
           {leftBtn}
         </button>
         {rightBtn && (
@@ -38,7 +38,7 @@ function Section({ model, backgroundImg, backgroundVideo, price, description, le
           </button>
         )}
       </div>
-    </div>
+    </section>
   );
 }
 

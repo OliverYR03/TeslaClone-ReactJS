@@ -10,7 +10,7 @@ function FirstLastSection({
   rightBtn,
 }) {
   return (
-    <div className="relative w-[99vw] h-[100vh] flex flex-col justify-between items-center overflow-hidden">
+    <section className="relative w-[99vw] h-[100vh] flex flex-col justify-between items-center overflow-hidden">
       {model === "Model Y" && (
         <>
           <div
@@ -73,7 +73,7 @@ function FirstLastSection({
           </div>
         </>
       )}
-    </div>
+    </section>
   );
 }
 

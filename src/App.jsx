@@ -7,7 +7,7 @@ import FirstLastSection from "./components/FirstLastSection";
 
 function App() {
   return (
-    <div className=" items-center justify-between w-full">
+    <div className="home items-center justify-between w-full">
       <Inventori />
       <Navbar />
       <div className="container min-h-screen">
@@ -92,44 +92,58 @@ function App() {
           leftBtn="Join Tesla"
         />
       </div>
-      <div className="flex justify-center items-center w-full">
-        <div className="flex flex-col xl:w-[32vw] w-[90vw] xl:h-[20vh] text-center text-[#5c5e62]">
-          <div className="text mt-10 flex flex-col text-xs align-center font-normal">
-            <p className="justify-center leading-[18px]">
-              1 Price before estimated savings is $46,630, including Destination
-              and Order Fees, but excluding taxes and other fees. Subject to
-              change. Vehicle shown has upgrades that will increase the price.
-              Estimated savings includes $6,500 in
-              <span className="underline underline-offset-4 font-medium">gas savings</span>
-              estimated over five years, the $7,500 Federal Tax Credit and state
-              incentives, available to eligible buyers and subject to MSRP caps.
-              Not all vehicles, customers or finance options will be eligible.
-              <span className="underline underline-offset-4 font-medium">Terms apply.</span>
-              <br />
-              <br />2 Price before estimated savings is $44,130, including
-              Destination and Order Fees, but excluding taxes and other fees.
-              Subject to change. Vehicle shown has upgrades that will increase
-              the price. Estimated savings includes $6,500 in <span className="underline underline-offset-4 font-medium">gas savings</span>
-              estimated over five years, the $7,500 Federal Tax Credit and state
-              incentives, available to eligible buyers and subject to MSRP caps.
-              Not all vehicles, customers or finance options will be eligible. <span className="underline underline-offset-4 font-medium">Terms apply.</span>
-            </p>
+      <section>
+        <div className="flex justify-center items-center w-full">
+          <div className="flex flex-col xl:w-[32vw] w-[90vw] xl:h-[20vh] text-center text-[#5c5e62]">
+            <div className="text mt-10 flex flex-col text-xs align-center font-normal">
+              <p className="justify-center leading-[18px]">
+                1 Price before estimated savings is $46,630, including
+                Destination and Order Fees, but excluding taxes and other fees.
+                Subject to change. Vehicle shown has upgrades that will increase
+                the price. Estimated savings includes $6,500 in
+                <span className="underline underline-offset-4 font-medium">
+                  gas savings
+                </span>
+                estimated over five years, the $7,500 Federal Tax Credit and
+                state incentives, available to eligible buyers and subject to
+                MSRP caps. Not all vehicles, customers or finance options will
+                be eligible.
+                <span className="underline underline-offset-4 font-medium">
+                  Terms apply.
+                </span>
+                <br />
+                <br />2 Price before estimated savings is $44,130, including
+                Destination and Order Fees, but excluding taxes and other fees.
+                Subject to change. Vehicle shown has upgrades that will increase
+                the price. Estimated savings includes $6,500 in{" "}
+                <span className="underline underline-offset-4 font-medium">
+                  gas savings
+                </span>
+                estimated over five years, the $7,500 Federal Tax Credit and
+                state incentives, available to eligible buyers and subject to
+                MSRP caps. Not all vehicles, customers or finance options will
+                be eligible.{" "}
+                <span className="underline underline-offset-4 font-medium">
+                  Terms apply.
+                </span>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <footer className="flex justify-center items-center w-full min-h-[20vh] mb-10">
-        <nav className="flex justify-center mt-4">
-          <ul className="flex xl:flex-row flex-col xl:gap-4 gap-2 items-center text-xs text-[#5c5e62] font-medium">
-            <li>Tesla © 2025</li>
-            <li>Privacy Legal</li>
-            <li>Vehicle Recalls</li>
-            <li className=" xl:block hidden">Contact</li>
-            <li >News</li>
-            <li className=" xl:block hidden">Get Updates</li>
-            <li className=" xl:block hidden">Locations</li>
-          </ul>
-        </nav>
-      </footer>
+        <footer className="flex justify-center items-center w-full min-h-[20vh] mb-10">
+          <nav className="flex justify-center mt-4">
+            <ul className="flex xl:flex-row flex-col xl:gap-4 gap-2 items-center text-xs text-[#5c5e62] font-medium">
+              <li>Tesla © 2025</li>
+              <li>Privacy Legal</li>
+              <li>Vehicle Recalls</li>
+              <li className=" xl:block hidden">Contact</li>
+              <li>News</li>
+              <li className=" xl:block hidden">Get Updates</li>
+              <li className=" xl:block hidden">Locations</li>
+            </ul>
+          </nav>
+        </footer>
+      </section>
       <Downnav />
     </div>
   );
